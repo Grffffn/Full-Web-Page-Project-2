@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+
+
+    <title>LearnTech Plus | Home</title>
+
+    <!-- Start Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!-- Start Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+
+    <!-- Start Global CSS -->
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+
+
+</head>
+
+<!-- I've gotten in the habit of separating my major blocks of code like the body from the rest of the head/header. Dunno if this will be best practice
+  but at the moment it makes my code more readable to me. As an aside, while I am writing notes out for myself I will say that while these tutorials are helpful
+  I dislike the handholding when given project assignments. I don't mean the pre-made CSS but that you're expected to do things after he's already done them
+  whether or not its a tutorial or solo project. I would prefer to be given the tools and then tasked with making something to the best of my ability and THEN shown
+  how he does it and reviewing if needed. -->
+
+  <body>
+    <header>
+
+        <img id="logo" src="img\logo.png">
+
+        <nav>
+
+        <a href="index.html">Home</a>
+        <a href="techsupport.html">Tech Support</a>
+        <a href="courses.html">Courses</a>
+        <a href="premiumplus.html">Premium Plus</a>
+        <a href="learntech.html">Learn Tech</a>
+        <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+  <!-- begin section 1 logo/slideshow section -->
+    <section id="slideshow">
+
+      <section id="content">
+        <h1>Premium Plus</h1>
+        <h3>Start learning & Improve Your Skills</h3>
+        <p>Sign up today for our free 1 month trial to our entire course library</p>
+        <button>Learn More</button>
+      </section>
+
+      <img id="slide" src="img/background.jpg">
+    </section>
+  <!-- end section 1 logo/slideshow page -->
+
+  <!-- begin section 2 featured courses section -->
+    <section id="courses">
+
+      <center><h1>Our Featured Courses</h1></center>
+
+      <div class="course">
+        <!-- so Degugging this page the instructor starts his class tag as course, not course 1
+        not course-01, just course, which does not follow his labelling convention AT All
+        and has caused problems. His div for his CCS class, course-02 follows the way it should be
+        labeled. Homie has got to get things standardized. -->
+
+        <img src="img\course-01.jpg" alt="course1logo">
+        <center><h2>HTML For Beginners</h2></center>
+        <center><h6>This course was designed for students starting out in Front End Web Development wanting to learn HTML5 to get started...</h6></center>
+        <center>
+          <button type="button" name="button">Learn More</button>
+        </center>
+      </div>
+
+      <div class="course2">
+        <img src="img\course-02.jpg" alt="course2logo">
+        <center><h2>CSS3 For Beginners</h2></center>
+        <center><h6>This course was designed for students starting out in Front End Web Development wanting to learn CCS3 to get started...</h6></center>
+        <center>
+          <button type="button" name="button">Learn More</button>
+        </center>
+      </div>
+
+      <div class="course3">
+        <img src="img\course-03.jpg" alt="course3logo">
+        <center><h2>JavaScript For Beginners</h2></center>
+        <center><h6>This course was designed for students starting out in Front End Web Development wanting to learn JavaScript to get started...</h6></center>
+        <center>
+          <button type="button" name="button">Learn More</button>
+        </center>
+      </div>
+
+    </section>
+ <!--end section 2 featured courses section -->
+
+  <!-- begin section 3 about stats section -->
+    <section id="about">
+
+      <!-- -->
+      <div class="about">
+        <h1>About Learn Tech Plus</h1>
+      </div>
+
+      <!-- IDEA:  -->
+      <div class="students">
+        <h3>Students</h3>
+        <h1>82,000</h1>
+      </div>
+
+      <!-- IDEA:  -->
+      <div class="reviews">
+        <h3>Reviews</h3>
+        <h1>1,100</h1>
+      </div>
+
+      <!-- IDEA:  -->
+      <div class="courses">
+        <h3>Courses</h3>
+        <h1>10</h1>
+      </div>
+
+      <!-- IDEA:  -->
+      <div class="content">
+        <h3>Hours of Content</h3>
+        <h1>20</h1>
+      </div>
+    </section>
+  <!-- end section 3 about stats section -->
+
+  <!-- begin section 4 learn more section -->
+    <section id="learntech">
+
+
+      <center><h1 class="h1lt">Learn Tech</h1></center>
+
+
+      <!-- IDEA:  -->
+      <div class="learntechnow">
+        <img src="img\learntechnow.jpg" alt="">
+        <center>
+          <h2>Learn Tech Now</h2>
+        </center>
+        <center>
+          <h6>Daily Videos Covering Tech Topics</h6>
+        </center>
+        <center>
+          <button type="button" name="button">Watch Now</button>
+        </center>
+      </div>
+
+      <!-- IDEA:  -->
+      <div class="learntechpodcast">
+        <img src="img\learntechpodcast.jpg" alt="">
+        <center>
+          <h2>Learn tech Podcast</h2>
+        </center>
+        <center>
+          <h6>Daily Podcast Series Covering Tech Topics</h6>
+        </center>
+        <center>
+          <button type="button" name="button">Listen Now</button>
+        </center>
+      </div>
+
+      <!-- IDEA:  -->
+      <div class="learntechblog">
+        <img src="img\techtipsblog.jpg" alt="">
+        <center>
+          <h2>Tech Tips Blog</h2>
+        </center>
+        <center>
+          <h6>Daily Blog Covering Tech Topics</h6>
+        </center>
+        <center>
+          <button type="button" name="button">Read Now</button>
+        </center>
+      </div>
+
+    </section>
+  <!-- end section 4 learn more section -->
+
+  <!-- begin footer -->
+    <footer>
+      <img id="logo" src="img\logo.png" alt="">
+      <p id="footer">Copyright 2019. All Rights Reserved. | LearnTech Plus</p>
+    </footer>
+  <!-- end footer -->
+
+
+  </body>
+</html>
